@@ -10,6 +10,7 @@ tanzu apps workload create app-maven-kpack-with-subpath \
   --label apps.tanzu.vmware.com/has-tests=true \
   --label app.kubernetes.io/part-of=app-maven-kpack-with-subpath \
   --type web \
+  --sub-path my-subpath \
   --yes
 ```
 
