@@ -11,6 +11,7 @@ tanzu apps workload create app-maven-kpack-with-subpath \
   --label app.kubernetes.io/part-of=app-maven-kpack-with-subpath \
   --type web \
   --sub-path my-subpath \
+  --build-env BP_JVM_VERSION=17 \
   --yes
 ```
 
